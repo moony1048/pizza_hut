@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>피자헛</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="inner">
+                <nav>
+                    <h1 class="logo">
+                        <a href="#"
+                            ><img src="./img/head-logo.png" alt="head-logo"
+                        /></a>
+                    </h1>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">메뉴</a>
+                            <ul class="submenu">
+                                <li><a href="#">피자</a></li>
+                                <li><a href="#">세트</a></li>
+                                <li><a href="#">파스타&치킨</a></li>
+                                <li><a href="#">사이드&음료</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">주문</a>
+                            <ul class="submenu">
+                                <li><a href="#">단체주문</a></li>
+                                <li><a href="#">e쿠폰 주문</a></li>
+                                <li><a href="#">지류 상품권</a></li>
+                                <li><a href="#">모바일 상품권</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">이벤트&제휴</a>
+                            <ul class="submenu">
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">제휴할인</a></li>
+                                <li><a href="#">멤버십</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">창업안내</a>
+                            <ul class="submenu">
+                                <li><a href="#">창업절차</a></li>
+                                <li><a href="#">창업상담</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">피자헛 소식</a>
+                            <ul class="submenu">
+                                <li><a href="#">브랜드</a></li>
+                                <li><a href="#">인재채용</a></li>
+                                <li><a href="#">공지사항</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="utillmenu">
+                        <li>
+                            <a href="#"
+                                ><img
+                                    src="./img/icon_login.svg"
+                                    alt="icon_login"
+                            /></a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><img src="./img/icon_cart.svg" alt="icon_cart"
+                            /></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- //e: header -->
+
+        <main id="main">
+            <section class="visual">
+                <h2 class="hidden">main-visual</h2>
+                <div class="swiper visual-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/mainvisual01.png"
+                                        alt="메인비주얼01"
+                                    />
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/mainvisual02.png"
+                                        alt="메인비주얼02"
+                                    />
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/mainvisual03.png"
+                                        alt="메인비주얼03"
+                                    />
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/mainvisual04.png"
+                                        alt="메인비주얼04"
+                                    />
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/mainvisual05.png"
+                                        alt="메인비주얼05"
+                                    />
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-button-prev visual-prev"></div>
+                    <div class="swiper-button-next visual-next"></div>
+                </div>
+            </section>
+            <!-- //e: visual -->
+
+            <section class="menu">
+                <div class="inner">
+                    <h3 class="text">BEST MENU</h3>
+                    <div class="swiper menu-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_taco.png"
+                                            alt="menu_taco"
+                                        />
+                                    </figure>
+                                    <p>올라! 타코</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_super.png"
+                                            alt="menu_super"
+                                        />
+                                    </figure>
+                                    <p>수퍼슈프림</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_com.png"
+                                            alt="menu_com"
+                                        />
+                                    </figure>
+                                    <p>콤비네이션 치즈딥</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_seafood.png"
+                                            alt="menu_seafood"
+                                        />
+                                    </figure>
+                                    <p>씨푸드킹</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_peper.png"
+                                            alt="menu_peper"
+                                        />
+                                    </figure>
+                                    <p>페퍼로니 치즈딥</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <figure>
+                                        <img
+                                            src="./img/menu_bbq_la.png"
+                                            alt="menu_bbq_la"
+                                        />
+                                    </figure>
+                                    <p>LA BBQ 불고기 치즈딥</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-prev menu-prev"></div>
+                        <div class="swiper-button-next menu-next"></div>
+                    </div>
+
+                    <a href="#" class="btn-more">더보기</a>
+                </div>
+            </section>
+            <!-- //e: menu -->
+
+            <section class="hot-deal"></section>
+
+            <section class="value">
+                <div class="inner">
+                    <h3 class="text">Taste the difference</h3>
+                    <p>
+                        피자헛은 맛있는 피자를 만들기 위해 작은 차이까지
+                        집중합니다.
+                    </p>
+                    <div class="swiper value-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <dl class="value-text">
+                                    <dt>도우의 작은차이</dt>
+                                    <dd>
+                                        최적의 숙성관리를 통해 <br />
+                                        더욱 쫄깃하고 담백해졌습니다.
+                                    </dd>
+                                </dl>
+
+                                <figure>
+                                    <img
+                                        src="./img/value01.png"
+                                        alt="value01"
+                                    />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <dl class="value-text">
+                                    <dt>소스의 작은차이</dt>
+                                    <dd>
+                                        피자 본연의 풍미를 더해주는 신선한
+                                        토마토 소스로 <br />
+                                        더 깊고 진한 피자의 맛을 느낄 수
+                                        있습니다.
+                                    </dd>
+                                </dl>
+                                <figure>
+                                    <img
+                                        src="./img/value02.png"
+                                        alt="value02"
+                                    />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <dl class="value-text">
+                                    <dt>피클의 작은차이</dt>
+                                    <dd>
+                                        최적의 숙성관리를 통해 <br />
+                                        더욱 쫄깃하고 담백해졌습니다.
+                                    </dd>
+                                </dl>
+                                <figure>
+                                    <img
+                                        src="./img/value03.png"
+                                        alt="value03"
+                                    />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <dl class="value-text">
+                                    <dt>치즈의 작은차이</dt>
+                                    <dd>
+                                        3가지 프리미엄 치즈를 블렌딩하여
+                                        <br />
+                                        고소함과 풍미를 끌어올린 <br />
+                                        피자헛만의 고품질 치즈를 사용합니다.
+                                    </dd>
+                                </dl>
+                                <figure>
+                                    <img
+                                        src="./img/value04.png"
+                                        alt="value04"
+                                    />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <dl class="value-text">
+                                    <dt>토핑의 작은차이</dt>
+                                    <dd>
+                                        엄격한 품질관리 시스템을 통과한
+                                        <br />
+                                        신선하고 품질 좋은 재료만을 사용해
+                                        <br />
+                                        토핑 본연의 맛을 살렸습니다.
+                                    </dd>
+                                </dl>
+                                <figure>
+                                    <img
+                                        src="./img/value05.png"
+                                        alt="value05"
+                                    />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <dl class="value-text">
+                                    <dt>딜리버리의 작은차이</dt>
+                                    <dd>
+                                        피자가 가장 맛있는 온도를 유지할 수 있는
+                                        핫 파우치로 <br />
+                                        먹는 순간까지 갓 구운 피자 맛을
+                                        지킵니다.
+                                    </dd>
+                                </dl>
+                                <figure>
+                                    <img
+                                        src="./img/value06.png"
+                                        alt="value06"
+                                    />
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-button-prev value-prev"></div>
+                        <div class="swiper-button-next value-next"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- //e: value -->
+
+            <section class="event">
+                <div class="inner">
+                    <h2 class="text">EVENT</h2>
+                    <ul class="event-con">
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/event01.png"
+                                        alt="event01"
+                                    />
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/event02.png"
+                                        alt="event02"
+                                    />
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/event03.png"
+                                        alt="event03"
+                                    />
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn-more">더보기</a>
+                </div>
+            </section>
+
+            <!-- //e: event -->
+            <section class="info">
+                <h2 class="hidden">info</h2>
+                <div class="inner">
+                    <ul class="info-list">
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/info_store.jpg"
+                                        alt="info_store"
+                                    />
+                                </figure>
+                                <strong class="info1">매장찾기</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img
+                                        src="./img/info_shop.jpg"
+                                        alt="info_shop"
+                                    />
+                                </figure>
+                                <strong class="info2">창업안내</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- //e: info -->
+        </main>
+
+        <footer id="footer">
+            <div class="foot-wrap">
+                <div class="foot-logo">
+                    <a href="#"
+                        ><img src="./img/foot-logo.png" alt="foot-logo"
+                    /></a>
+                </div>
+                <div class="foot-con-list">
+                    <div class="foot-con1">
+                        <a href="#">이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">공지사항</a>
+                        <a href="#">창업안내</a>
+                        <a href="#">개인정보처리방침</a>
+                    </div>
+                </div>
+
+                <div class="foot-con2">
+                    <p>서울시 영등포구 국회대로 74길 4, 9~11층</p>
+                    <p>대표번호 1588-5588(운영시간 10:30 ~ 22:00)</p>
+                    <p>사업자등록번호 120-81-63948</p>
+                </div>
+                <div class="foot-con3">
+                    <p>한국피자헛유한회사 대표이사 : 조윤상</p>
+                    <p>개인정보 보호책임자 : 손정완</p>
+                </div>
+                <div class="foot-con4">
+                    <p class="copyright">
+                        Copyright © BY PIZZA HUT KOREA LTD. ALL RIGHT RESERVED
+                    </p>
+                    <div class="foot-icon">
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/foot_facebook.png"
+                                    alt="foot_facebook"
+                                />
+                            </figure>
+                        </a>
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/foot_instagram.png"
+                                    alt="foot_instagram"
+                                />
+                            </figure>
+                        </a>
+                        <a href="#">
+                            <figure>
+                                <img
+                                    src="./img/foot_youtube.png"
+                                    alt="foot_youtube"
+                                />
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- //e: footer -->
+
+        <div class="sidebar"></div>
+    </body>
+</html>
